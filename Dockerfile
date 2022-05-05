@@ -1,41 +1,43 @@
 # Start from root docker file
-FROM rootproject/root:latest
+FROM rootproject/root:6.26.00-ubuntu20.04
 # Install dependencies most will already be installed
+
+#RUN apt-get update
+#RUN apt-get install -y dpkg-dev
 RUN apt-get update
-RUN apt-get install -y dpkg-dev
 RUN apt-get install -y git
-RUN apt-get install -y wget
-RUN apt-get install -y tar
-RUN apt-get install -y binutils
-RUN apt-get install -y gcc
-RUN apt-get install -y g++
-ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get -y install tzdata
-RUN apt-get -y install cmake
-RUN apt-get install -y binutils
-RUN apt-get install -y libx11-dev
-RUN apt-get install -y libxpm-dev
-RUN apt-get install -y libxft-dev
-RUN apt-get install -y libxext-dev
-RUN apt-get install -y python3
-RUN apt-get install -y libpng-dev
-RUN apt-get install -y libjpeg-dev
-RUN apt-get install -y libssl-dev
-RUN apt-get install -y gfortran
-RUN apt-get install -y libpcre3-dev
-RUN apt-get install -y xlibmesa-glu-dev
-RUN apt-get install -y libglew1.5-dev
-RUN apt-get install -y libftgl-dev
-RUN apt-get install -y libmariadb-dev
-RUN apt-get install -y libfftw3-dev
-RUN apt-get install -y libcfitsio-dev
-RUN apt-get install -y graphviz-dev
-RUN apt-get install -y libavahi-compat-libdnssd-dev
-RUN apt-get install -y libldap2-dev
-RUN apt-get install -y libxml2-dev
-RUN apt-get install -y libkrb5-dev
-RUN apt-get install -y libgsl0-dev
-RUN apt-get install -y qtwebengine5-dev
+#RUN apt-get install -y wget
+#RUN apt-get install -y tar
+#RUN apt-get install -y binutils
+#RUN apt-get install -y gcc
+#RUN apt-get install -y g++
+#ENV DEBIAN_FRONTEND=noninteractive
+#RUN apt-get -y install tzdata
+#RUN apt-get -y install cmake
+#RUN apt-get install -y binutils
+#RUN apt-get install -y libx11-dev
+#RUN apt-get install -y libxpm-dev
+#RUN apt-get install -y libxft-dev
+#RUN apt-get install -y libxext-dev
+#RUN apt-get install -y python3
+#RUN apt-get install -y libpng-dev
+#RUN apt-get install -y libjpeg-dev
+#RUN apt-get install -y libssl-dev
+#RUN apt-get install -y gfortran
+#RUN apt-get install -y libpcre3-dev
+#RUN apt-get install -y xlibmesa-glu-dev
+#RUN apt-get install -y libglew1.5-dev
+#RUN apt-get install -y libftgl-dev
+#RUN apt-get install -y libmariadb-dev
+#RUN apt-get install -y libfftw3-dev
+#RUN apt-get install -y libcfitsio-dev
+#RUN apt-get install -y graphviz-dev 
+#RUN apt-get install -y libavahi-compat-libdnssd-dev
+#RUN apt-get install -y libldap2-dev
+#RUN apt-get install -y libxml2-dev
+#RUN apt-get install -y libkrb5-dev
+#RUN apt-get install -y libgsl0-dev
+#RUN apt-get install -y qtwebengine5-dev
 
 # Installing mandatory packages CERN/ROOT already done with premade dockerfile
 #RUN mkdir /ROOT
@@ -55,7 +57,7 @@ ENV MANPATH=$MANPATH:$ROOTSYS/man
 
 
 # To clone from git
-RUN git clone https://gitlab.com/dmaurin/USINE.git /USINE
+RUN git clone https://gitlab.com/dmaurin/USINE.git /USINE --branch V3.5
 # Installation
 #RUN mkdir USINE
 WORKDIR /USINE
