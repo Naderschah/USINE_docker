@@ -71,4 +71,5 @@ ENV PATH=$PATH:"$USINE/bin"
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$USINE/lib
 ENV DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:$USINE/lib
 
-# Cant find relevant bin folder to trial this something went wrong
+# Set enviroment variable for AMS-02 data
+ENV USINE_DATA=/data/USINE_FILES

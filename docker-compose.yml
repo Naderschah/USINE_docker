@@ -4,3 +4,6 @@ services:
   usine:
     build: .
     command: tail -f /dev/null
+    volumes:
+      - /home/felix/USINE/data:/data
+      - /home/felix/USINE/models:/models
