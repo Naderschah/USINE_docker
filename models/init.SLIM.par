@@ -25,7 +25,7 @@
 Base  @ CRData      @ fCRData           @ M=1 @ $USINE/inputs/crdata_crdbHEAO3.dat
 Base  @ CRData      @ fCRData           @ M=1 @ $USINE/inputs/crdata_crdbpbar.dat
 
-#Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/H_AMS02.USINE
+#Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/H_AMS02.USINE
 
 #Base  @ CRData      @ fCRData           @ M=1 @ $USINE/inputs/H_AMS02.USINE
 #Base  @ CRData      @ fCRData           @ M=1 @ $USINE/inputs/He_AMS02.USINE
@@ -54,32 +54,32 @@ Base  @ CRData      @ fCRData           @ M=1 @ $USINE/inputs/crdata_crdbpbar.da
 
 
 
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/H_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/He_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/C_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/N_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/O_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/Ne_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/Mg_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/Si_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/Fe_AMS02_prelim.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/LiB_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/LiO_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/LiC_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/BeC_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/BC_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/HeO_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/CO_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/NeO_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/MgO_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/SiO_AMS02.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/FeO_AMS02_prelim.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/FSi_AMS02_prelim.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/Al_AMS02_prelim.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/Na_AMS02_prelim.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/H_DAMPE.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/HE_DAMPE.USINE
-Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/H_CALET.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/H_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/He_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/C_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/N_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/O_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/Ne_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/Mg_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/Si_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/Fe_AMS02_prelim.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/LiB_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/LiO_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/LiC_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/BeC_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/BC_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/HeO_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/CO_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/NeO_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/MgO_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/SiO_AMS02.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/FeO_AMS02_prelim.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/FSi_AMS02_prelim.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/Al_AMS02_prelim.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/Na_AMS02_prelim.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/H_DAMPE.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/HE_DAMPE.USINE
+Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/H_CALET.USINE
 
 Base  @ CRData      @ NormList          @ M=0 @ H,He,C,N,O,Ne,Na,Mg,Si,Fe:AMS02|50.|kR;F,Al,P,S,Cl,Ar,K,Ca,Sc,Ti,V,Cr,Mn,Ni:HEAO|10.6|kEkn
 Base  @ EnergyGrid  @ NBins             @ M=0 @ 1000
@@ -98,7 +98,7 @@ Base  @ XSections   @ Tertiaries        @ M=0 @ 1H-bar,2H-bar
 
 # PRODUCTION XS
 Base  @ XSections   @ fProd             @ M=1 @ $USINE/inputs/XS_NUCLEI/sigProdWebber03+Coste12.dat
-Base  @ XSections   @ fProd             @ M=1 @ $USINE/inputs/XS_NUCLEI/FITABOVE1.5GeVn/sigProdGALPROP17_OPT12_rescaledOPT22_cumul.dat
+Base  @ XSections   @ fProd             @ M=1 @ $USINE_DATA/FITABOVE1.5GeVn/sigProdGALPROP17_OPT12_rescaledOPT22_cumul.dat
 Base  @ XSections   @ fTotInelAnn       @ M=1 @ $USINE/inputs/XS_NUCLEI/sigInelTripathi99+Coste12.dat
 
 

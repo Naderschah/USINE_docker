@@ -1,5 +1,5 @@
 # Start from root docker file
-FROM rootproject/root:6.26.00-ubuntu20.04
+FROM rootproject/root:6.20.08-ubuntu20.04
 # Install dependencies most will already be installed
 
 #RUN apt-get update
@@ -72,4 +72,11 @@ ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$USINE/lib
 ENV DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:$USINE/lib
 
 # Set enviroment variable for AMS-02 data
-ENV USINE_DATA=/data/USINE_FILES
+ENV USINE_DATA=/data/
+# Dont know if the below matters but USINE complains if not set, used otput from host system
+ENV DISPLAY=:1 
+
+
+# rootproject/root:6.26.00-ubuntu20.04
+# compiled with 20200808
+# extracted with 20210601
