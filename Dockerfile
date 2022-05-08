@@ -75,8 +75,3 @@ ENV DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:$USINE/lib
 ENV USINE_DATA=/data/
 # Dont know if the below matters but USINE complains if not set, used otput from host system
 ENV DISPLAY=:1 
-
-
-# rootproject/root:6.26.00-ubuntu20.04
-# compiled with 20200808
-# extracted with 20210601

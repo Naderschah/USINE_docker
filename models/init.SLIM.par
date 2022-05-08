@@ -185,7 +185,7 @@ Model1DKisoVc  @ Transport      @ ParVals          @ M=0 @ 7., 0., 0.038904514, 
 
 SolMod0DFF @ Base @ ParNames @ M=0 @ phi
 SolMod0DFF @ Base @ ParUnits @ M=0 @ GV
-SolMod0DFF @ Base @ ParVals  @ M=0 @ 0.5
+SolMod0DFF @ Base @ ParVals  @ M=0 @ 0.67
 SolMod0DFF @ Base @ Rig0     @ M=0 @ 0.2
 
 TemplSpatialDist @ CST            @ ParNames   @ M=0 @ -
