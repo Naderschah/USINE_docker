@@ -5,5 +5,5 @@ services:
     build: .
     command: tail -f /dev/null
     volumes:
-      - /home/felix/USINE/data:/data
-      - /home/felix/USINE/models:/models
+      - /home/felix/USINE_docker/data:/data
+      - /home/felix/USINE_docker/models:/models

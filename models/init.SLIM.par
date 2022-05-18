@@ -83,7 +83,7 @@ Base  @ CRData      @ fCRData           @ M=1 @ $USINE_DATA/USINE_FILES/H_CALET.
 
 Base  @ CRData      @ NormList          @ M=0 @ H,He,C,N,O,Ne,Na,Mg,Si,Fe:AMS02|50.|kR;F,Al,P,S,Cl,Ar,K,Ca,Sc,Ti,V,Cr,Mn,Ni:HEAO|10.6|kEkn
 Base  @ EnergyGrid  @ NBins             @ M=0 @ 1000
-Base  @ EnergyGrid  @ NUC_EknRange      @ M=0 @ [1.e-3,1.e6]
+Base  @ EnergyGrid  @ NUC_EknRange      @ M=0 @ [1.e-3,5000]
 Base  @ EnergyGrid  @ ANTINUC_EknRange  @ M=0 @ [1e-2,1.e5]
 Base  @ EnergyGrid  @ LEPTONS_EkRange   @ M=0 @ [1e-2,1.e5]
 Base  @ ListOfCRs   @ fAtomicProperties @ M=0 @ $USINE/inputs/atomic_properties.dat
