@@ -1,0 +1,6 @@
+!#/bin/bash
+
+for n in 0.57, 0.67, 0.77;
+do 
+   ./USINE/bin/usine -l ~/usine_models/init.SLIM.par ~/USINE_out_$n "Be,F,Na,Al,P,S,Cl,Ar,K,Ca,Sc,Ti,V,Cr,Mn,Fe,C,Ne,He,N,O,Si,B,H,Mg,Li,B/O,Be/C,Li/O,Li/C,F/Si,Be/O,He/O,C/O,Be/B,Si/O,Ne/O,Li/B,Mg/O,B/C:kR:$n"  0  1  1  1 
+done

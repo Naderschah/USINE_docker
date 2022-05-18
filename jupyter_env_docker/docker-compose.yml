@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+  notebook:
+    container_name: python_notebook
+    labels:
+      description: Intel Python 3 using Jupyter
+      name: jupyter notebook 
+    ports:
+      - "10000:8888"
+    volumes:
+      - /home/felix/USINE_docker/:/home/notebooks
+    build: . 
